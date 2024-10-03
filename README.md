@@ -25,27 +25,14 @@ Pré-requisitos: Java 17
 
 ```bash
 # clonar repositório:
-git clone https://github.com/AndUrban/demo-dao-jdbc
-
-# Dentro da IDE, importar o projeto:
-demo-dao-jdbc
+git clone https://github.com/AndUrban/chess_system-java
 
 # Caminho:
-demo-dao-jdbc/src/application/Program.java (Program2.java)
-  > Program.java é da entidade Seller; Program2.java é da entidade Department.
+chess_system/bin
 
-# Execute o MySQL Workbench
-
-Conferir as seguintes informações no Workbench e modificar (conforme o necessário) no arquivo db.properties:
-> Caminho: demo-dao-jdbc/db.properties
-> Atualizar informações:
-  user: >seu usuário Workbench<
-  password: >sua senha workbench<
-  dburl: jdbc:mysql://localhost:3306/coursejdbc
-  useSSL: false
-
-# Executar o programa.
-  -> Run as Java Application
+# Abrir terminal GitBash na pasta bin
+# Digitar o seguinte comando no terminal para o jogo iniciar:
+  $ java applicaton/Program
 ```
 
 # Agradecimentos
